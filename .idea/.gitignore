@@ -1,0 +1,50 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+
+# Added few other directories which excludes target bin etc...
+/target/
+/bin/
+/.settings/
+/.gradle/
+/build/
+/.idea/
+
+# Any target directory
+!**/src/main/**/target/
+!**/src/test/**/target/
+**/META-INF.JAXB/
+
+### File System ###
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
